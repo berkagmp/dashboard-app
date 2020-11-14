@@ -48,8 +48,8 @@ const SoapRoomTemps = (props) => {
       <Table className={classes.table} size="small" aria-label="simple table">
         <TableHead>
           <TableRow>
-            <StyledTableCell align="center">CPU</StyledTableCell>
-            <StyledTableCell align="center">GPU</StyledTableCell>
+            <StyledTableCell align="center">Temp</StyledTableCell>
+            <StyledTableCell align="center">Humidity</StyledTableCell>
             <StyledTableCell align="center">Time</StyledTableCell>
           </TableRow>
         </TableHead>
