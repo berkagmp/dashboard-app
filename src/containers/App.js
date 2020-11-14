@@ -3,7 +3,7 @@ import "./App.css";
 
 import axios from "axios";
 
-import Temps from "../components/Temps";
+import SoapRoomTemps from "../components/SoapRoomTemps";
 
 class App extends Component {
   state = {
@@ -20,7 +20,7 @@ class App extends Component {
     let temps = <p style={{ textAlign: "center" }}>Loading...</p>;
 
     if (this.state.recent_temps) {
-      temps = <Temps temps={this.state.recent_temps} />;
+      temps = <SoapRoomTemps temps={this.state.recent_temps} />;
     }
 
     return <div className="App">{temps}</div>;
